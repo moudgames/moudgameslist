@@ -1,0 +1,26 @@
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.filter-btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: #ddd;
+}
+
+.filter-btn.filter-active {
+  background-color: #666;
+  color: white;
+}
+
